@@ -6,9 +6,9 @@ It is a single page application made with ReactJS
 ## Live Demo of this website :
 
 - [Live Site Link](https://travel-journey-bbf69.web.app/)
-## Server site link :
+## Client site link :
 
-- [Live Site Link](https://github.com/Shorifzaman/Travel-Juorney-server10)
+- [ Link](https://github.com/Shorifzaman/React-TravelJuorney-10)
 
 
 ##  this website details :
