@@ -26,9 +26,6 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 
 
 
-app.get("/", (req, res) => {
-  res.send("Coming soon.....Developer is working on it. Stay connected. For getting");
-});
 
 async function run() {
   try {
@@ -106,6 +103,11 @@ async function run() {
   }
 }
 run().catch(console.dir);
+
+
+app.get("/", (req, res) => {
+  res.send("Coming soon.....Developer is working on it. Stay connected. For getting");
+});
 
 app.listen(port, () => {
   console.log("server is running on port", port);
